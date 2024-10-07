@@ -1,0 +1,411 @@
+<!DOCTYPE html><!--  This site was created in Webflow. https://webflow.com  --><!--  Last Published: Mon Oct 07 2024 04:57:43 GMT+0000 (Coordinated Universal Time)  -->
+<html data-wf-page="66f5699eb8a46c9239f7570b" data-wf-site="66eaa68501bd176d8e1d62d0">
+<head>
+  <meta charset="utf-8">
+  <title>Events</title>
+  <meta content="Events" property="og:title">
+  <meta content="Events" property="twitter:title">
+  <meta content="width=device-width, initial-scale=1" name="viewport">
+  <meta content="Webflow" name="generator">
+  <link href="css/normalize.css" rel="stylesheet" type="text/css">
+  <link href="css/webflow.css" rel="stylesheet" type="text/css">
+  <link href="css/eventam.webflow.css" rel="stylesheet" type="text/css">
+  <link href="https://fonts.googleapis.com" rel="preconnect">
+  <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin="anonymous">
+  <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js" type="text/javascript"></script>
+  <script type="text/javascript">WebFont.load({  google: {    families: ["Poppins:100,100italic,200,200italic,300,300italic,regular,italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic"]  }});</script>
+  <script type="text/javascript">!function(o,c){var n=c.documentElement,t=" w-mod-";n.className+=t+"js",("ontouchstart"in o||o.DocumentTouch&&c instanceof DocumentTouch)&&(n.className+=t+"touch")}(window,document);</script>
+  <link href="images/favicon.png" rel="shortcut icon" type="image/x-icon">
+  <link href="images/webclip.png" rel="apple-touch-icon"><!--  Keep this css code to improve the font quality -->
+  <style>
+  * {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -o-font-smoothing: antialiased;
+  -webkit-appearance:none;
+}
+</style>
+</head>
+<body>
+  <div class="pages-wrapper">
+    <section class="section navbar events">
+      <div class="w-layout-blockcontainer container w-container">
+        <div class="navbar-wrapper">
+          <div data-animation="default" data-collapse="medium" data-duration="400" data-easing="ease" data-easing2="ease" role="banner" class="navbar-container-wrap w-nav">
+            <div class="container w-container">
+              <div class="navbar-content">
+                <a href="#" class="site-logo-wrapper w-nav-brand"><img loading="lazy" src="images/logo.webp" alt="" class="site-logo alternative"></a>
+                <nav role="navigation" class="nav-menu w-nav-menu">
+                  <a href="index.html" class="nav-link alternative w-nav-link">Home</a>
+                  <a href="events.html" aria-current="page" class="nav-link alternative w-nav-link w--current">Events</a>
+                  <a href="calendar.html" class="nav-link alternative w-nav-link">Calendar</a>
+                  <a href="speakers.html" class="nav-link alternative w-nav-link">Speakers</a>
+                  <a href="vanues.html" class="nav-link alternative w-nav-link">Vanues</a>
+                  <a href="schedule.html" class="nav-link alternative w-nav-link">Schedules</a>
+                  <a href="#" class="nav-link icon w-nav-link"></a>
+                  <div class="nav-btn-wrapper">
+                    <a href="#" class="nav-btn w-button">Sign in</a>
+                    <a href="#" class="nav-btn w-button">Sign up</a>
+                  </div>
+                </nav>
+                <div data-w-id="455c2d5b-c5a8-0c85-6af5-3c7dbbd36b0b" class="menu-button w-nav-button">
+                  <div data-is-ix2-target="1" class="hamburger-menu" data-w-id="455c2d5b-c5a8-0c85-6af5-3c7dbbd36b0c" data-animation-type="lottie" data-src="documents/1518.json" data-loop="0" data-direction="1" data-autoplay="0" data-renderer="svg" data-default-duration="2" data-duration="0"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="section event-dropdown-hero">
+      <div class="w-layout-blockcontainer container w-container">
+        <div class="e-h-dropdown-wrapper">
+          <div class="event-selection-form-block w-form">
+            <form id="email-form" name="email-form" data-name="Email Form" method="get" class="event-selection-form" data-wf-page-id="66f5699eb8a46c9239f7570b" data-wf-element-id="51477c61-f2a0-0e70-03cb-bc167e9966ed"><input class="es-form-input w-input" maxlength="256" name="name-4" data-name="Name 4" placeholder="e.g. event, meetup" type="text" id="name-4">
+              <div data-hover="false" data-delay="0" class="eshf-dropdown w-dropdown">
+                <div class="eshf-dropdown-toggle w-dropdown-toggle">
+                  <div class="w-icon-dropdown-toggle"></div>
+                  <div>Catagory</div>
+                </div>
+                <nav class="w-dropdown-list">
+                  <a href="#" class="w-dropdown-link">Link 1</a>
+                  <a href="#" class="w-dropdown-link">Link 2</a>
+                  <a href="#" class="w-dropdown-link">Link 3</a>
+                </nav>
+              </div>
+              <div data-hover="false" data-delay="0" class="eshf-dropdown w-dropdown">
+                <div class="eshf-dropdown-toggle w-dropdown-toggle">
+                  <div class="w-icon-dropdown-toggle"></div>
+                  <div>Location</div>
+                </div>
+                <nav class="w-dropdown-list">
+                  <a href="#" class="w-dropdown-link">Link 1</a>
+                  <a href="#" class="w-dropdown-link">Link 2</a>
+                  <a href="#" class="w-dropdown-link">Link 3</a>
+                </nav>
+              </div>
+              <div data-hover="false" data-delay="0" class="eshf-dropdown w-dropdown">
+                <div class="eshf-dropdown-toggle w-dropdown-toggle">
+                  <div class="w-icon-dropdown-toggle"></div>
+                  <div>Dropdown</div>
+                </div>
+                <nav class="w-dropdown-list">
+                  <a href="#" class="w-dropdown-link">Link 1</a>
+                  <a href="#" class="w-dropdown-link">Link 2</a>
+                  <a href="#" class="w-dropdown-link">Link 3</a>
+                </nav>
+              </div>
+              <div data-hover="false" data-delay="0" class="eshf-dropdown w-dropdown">
+                <div class="eshf-dropdown-toggle w-dropdown-toggle">
+                  <div class="w-icon-dropdown-toggle"></div>
+                  <div>Dropdown</div>
+                </div>
+                <nav class="w-dropdown-list">
+                  <a href="#" class="w-dropdown-link">Link 1</a>
+                  <a href="#" class="w-dropdown-link">Link 2</a>
+                  <a href="#" class="w-dropdown-link">Link 3</a>
+                </nav>
+              </div><input class="es-form-input w-input" maxlength="256" name="name-2" data-name="Name 2" placeholder="Start Date" type="text" id="name-2"><input type="submit" data-wait="Please wait..." class="submit-button w-button" value="Search">
+            </form>
+            <div class="w-form-done">
+              <div>Thank you! Your submission has been received!</div>
+            </div>
+            <div class="w-form-fail">
+              <div>Oops! Something went wrong while submitting the form.</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="section ep-current-events">
+      <div class="w-layout-blockcontainer container w-container">
+        <div class="ep-ct-content-wrapper">
+          <div class="ct-cards ep">
+            <div class="ct-card-img one ep">
+              <div class="ct-card-tag first">Showing</div>
+              <div class="ct-card-tag">$150</div>
+            </div>
+            <div class="ct-card-content">
+              <h4 class="ct-card-heading">Megeve Winter Party</h4>
+              <div class="ct-icon-list-wrapper">
+                <div class="ct-card-icon-list-active">Tavel</div>
+                <div class="ct-il-text"><span class="icon"></span>January 17, 2024</div>
+                <div class="ct-il-text"><span class="icon"></span>Megeve</div>
+              </div>
+              <p class="ct-card-para">Join us for the ultimate winter party at Megeve. With live music, delicious food, and plenty of drinks, this is the perfect way to kick off the season.</p>
+            </div>
+          </div>
+          <div id="w-node-_3ea33578-b25b-e2ed-4e7b-2a70d1d83eaf-39f7570b" class="ct-cards ep">
+            <div class="ct-card-img two ep">
+              <div class="ct-card-tag first">Showing</div>
+              <div class="ct-card-tag">$149</div>
+            </div>
+            <div class="ct-card-content">
+              <h4 class="ct-card-heading">Eventchamp Conference</h4>
+              <div class="ct-icon-list-wrapper">
+                <div class="ct-card-icon-list-active">Business</div>
+                <div class="ct-il-text"><span class="icon"></span>January 17, 2024</div>
+                <div class="ct-il-text"><span class="icon"></span>Megeve</div>
+              </div>
+              <p class="ct-card-para">Eventchamp Conference is an exceptional gathering of event professionals from across the globe. Join us for insightful discussions, networking and inspiration!</p>
+            </div>
+          </div>
+          <div id="w-node-_3ea33578-b25b-e2ed-4e7b-2a70d1d83ec5-39f7570b" class="ct-cards ep">
+            <div class="ct-card-img three ep">
+              <div class="ct-card-tag first">Showing</div>
+              <div class="ct-card-tag">$99</div>
+            </div>
+            <div class="ct-card-content">
+              <h4 class="ct-card-heading">Walking on the Village Mountain</h4>
+              <div class="ct-icon-list-wrapper">
+                <div class="ct-card-icon-list-active">Tavel</div>
+                <div class="ct-il-text"><span class="icon"></span>January 17, 2024</div>
+                <div class="ct-il-text"><span class="icon"></span>Megeve</div>
+              </div>
+              <p class="ct-card-para">Join us for an unforgettable trek through the stunning Village Mountain. Breathtaking views, fresh air, and a fun group await! Hosted by Eventchamp.</p>
+            </div>
+          </div>
+          <div id="w-node-_3ea33578-b25b-e2ed-4e7b-2a70d1d83edb-39f7570b" class="ct-cards ep">
+            <div class="ct-card-img four ep">
+              <div class="ct-card-tag first">Showing</div>
+              <div class="ct-card-tag">$70</div>
+            </div>
+            <div class="ct-card-content">
+              <h4 class="ct-card-heading">Soccer Cup Final</h4>
+              <div class="ct-icon-list-wrapper">
+                <div class="ct-card-icon-list-active">Sports</div>
+                <div class="ct-il-text"><span class="icon"></span>January 17, 2024</div>
+                <div class="ct-il-text"><span class="icon"></span>Megeve</div>
+              </div>
+              <p class="ct-card-para">Join us for the ultimate showdown at the Soccer Cup Final. Experience the passion and excitement of the game with Eventchamp. Get your tickets now!</p>
+            </div>
+          </div>
+          <div id="w-node-_3ea33578-b25b-e2ed-4e7b-2a70d1d83ef1-39f7570b" class="ct-cards ep">
+            <div class="ct-card-img five ep">
+              <div class="ct-card-tag first">Showing</div>
+              <div class="ct-card-tag">$99</div>
+            </div>
+            <div class="ct-card-content">
+              <h4 class="ct-card-heading">Xtra Technology Conference</h4>
+              <div class="ct-icon-list-wrapper">
+                <div class="ct-card-icon-list-active">Technology</div>
+                <div class="ct-il-text"><span class="icon"></span>January 17, 2024</div>
+                <div class="ct-il-text"><span class="icon"></span>Megeve</div>
+              </div>
+              <p class="ct-card-para">Join the Xtra Tech Conference for cutting-edge insights and innovations. Meet top tech experts and discover the latest advancements in AI, VR, and more.<br></p>
+            </div>
+          </div>
+          <div id="w-node-_3ea33578-b25b-e2ed-4e7b-2a70d1d83f08-39f7570b" class="ct-cards ep">
+            <div class="ct-card-img six ep">
+              <div class="ct-card-tag first">Showing</div>
+              <div class="ct-card-tag">$299</div>
+            </div>
+            <div class="ct-card-content">
+              <h4 class="ct-card-heading">The Future of Currencies</h4>
+              <div class="ct-icon-list-wrapper">
+                <div class="ct-card-icon-list-active">Technology</div>
+                <div class="ct-il-text"><span class="icon"></span>January 17, 2024</div>
+                <div class="ct-il-text"><span class="icon"></span>Megeve</div>
+              </div>
+              <p class="ct-card-para">Discover the future of currencies at our event! Experts will discuss the impact of technology on finance, cryptocurrency trends, and the role of central banks.<br></p>
+            </div>
+          </div>
+          <div id="w-node-_5f9b1fae-3e6d-2c54-75c3-8aae0a3caf00-39f7570b" class="ct-cards ep">
+            <div class="ct-card-img seven ep">
+              <div class="ct-card-tag first">Showing</div>
+              <div class="ct-card-tag">$299</div>
+            </div>
+            <div class="ct-card-content">
+              <h4 class="ct-card-heading">Rock Concert of the Gloria</h4>
+              <div class="ct-icon-list-wrapper">
+                <div class="ct-card-icon-list-active">Technology</div>
+                <div class="ct-il-text"><span class="icon"></span>January 17, 2024</div>
+                <div class="ct-il-text"><span class="icon"></span>Megeve</div>
+              </div>
+              <p class="ct-card-para">Get ready to rock out at the Gloria concert! Hosted by Eventchamp, this high-energy event promises an unforgettable night of music, dancing, and fun.<br></p>
+            </div>
+          </div>
+          <div id="w-node-_08e6e39f-afb1-4247-5921-fcc3c717c3a3-39f7570b" class="ct-cards ep">
+            <div class="ct-card-img eight ep">
+              <div class="ct-card-tag first">Showing</div>
+              <div class="ct-card-tag">$299</div>
+            </div>
+            <div class="ct-card-content">
+              <h4 class="ct-card-heading">LA Beach Picnic</h4>
+              <div class="ct-icon-list-wrapper">
+                <div class="ct-card-icon-list-active">Food</div>
+                <div class="ct-il-text"><span class="icon"></span>January 17, 2024</div>
+                <div class="ct-il-text"><span class="icon"></span>Megeve</div>
+              </div>
+              <p class="ct-card-para">Come join the fun at the LA Beach Picnic! Hosted by Eventchamp, this event is the perfect way to relax and enjoy the sun, sand, and surf with friends and family.<br></p>
+            </div>
+          </div>
+          <div id="w-node-ca11b53b-27f6-e5db-78b2-23e059eddd6b-39f7570b" class="ct-cards ep">
+            <div class="ct-card-img nine ep">
+              <div class="ct-card-tag first">Showing</div>
+              <div class="ct-card-tag">$299</div>
+            </div>
+            <div class="ct-card-content">
+              <h4 class="ct-card-heading">Friendship Dinner</h4>
+              <div class="ct-icon-list-wrapper">
+                <div class="ct-card-icon-list-active">Food</div>
+                <div class="ct-il-text"><span class="icon"></span>January 17, 2024</div>
+                <div class="ct-il-text"><span class="icon"></span>Megeve</div>
+              </div>
+              <p class="ct-card-para">Come join the fun at the LA Beach Picnic! Hosted by Eventchamp, this event is the perfect way to relax and enjoy the sun, sand, and surf with friends and family.<br></p>
+            </div>
+          </div>
+          <div id="w-node-_66a3529a-0765-7bf3-b2c9-d70c8fd52108-39f7570b" class="ct-cards ep">
+            <div class="ct-card-img ten ep">
+              <div class="ct-card-tag first">Showing</div>
+              <div class="ct-card-tag">$150</div>
+            </div>
+            <div class="ct-card-content">
+              <h4 class="ct-card-heading">Table Mountain Cableway</h4>
+              <div class="ct-icon-list-wrapper">
+                <div class="ct-card-icon-list-active">Tavel</div>
+                <div class="ct-il-text"><span class="icon"></span>January 17, 2024</div>
+                <div class="ct-il-text"><span class="icon"></span>Megeve</div>
+              </div>
+              <p class="ct-card-para">Experience breathtaking views and unforgettable moments at the Table Mountain Cableway. Join us at Eventchamp for a one-of-a-kind adventure above the clouds.</p>
+            </div>
+          </div>
+          <div id="w-node-efc460c4-1787-c044-f4da-758180cdec0d-39f7570b" class="ct-cards ep">
+            <div class="ct-card-img eleven ep">
+              <div class="ct-card-tag first">Showing</div>
+              <div class="ct-card-tag">$150</div>
+            </div>
+            <div class="ct-card-content">
+              <h4 class="ct-card-heading">Table Mountain Cableway</h4>
+              <div class="ct-icon-list-wrapper">
+                <div class="ct-card-icon-list-active">Festival</div>
+                <div class="ct-il-text"><span class="icon"></span>January 17, 2024</div>
+                <div class="ct-il-text"><span class="icon"></span>Megeve</div>
+              </div>
+              <p class="ct-card-para">Ride the waves at our Surf Carnival! Join us for a day of sun, sand, and surf competitions. Show off your skills or just soak up the beachy vibes. Don&#x27;t miss the fun!</p>
+            </div>
+          </div>
+          <div id="w-node-_3f48580b-3470-1569-77b5-1944a4362ed9-39f7570b" class="ct-cards ep">
+            <div class="ct-card-img twelve ep">
+              <div class="ct-card-tag first">Showing</div>
+              <div class="ct-card-tag">$150</div>
+            </div>
+            <div class="ct-card-content">
+              <h4 class="ct-card-heading">Table Mountain Cableway</h4>
+              <div class="ct-icon-list-wrapper">
+                <div class="ct-card-icon-list-active">Art</div>
+                <div class="ct-il-text"><span class="icon"></span>January 17, 2024</div>
+                <div class="ct-il-text"><span class="icon"></span>Megeve</div>
+              </div>
+              <p class="ct-card-para">Unleash your inner performer at Drama Games! Join us for a night of fun, competition, and creativity. Act, improvise, and laugh with fellow drama enthusiasts.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="section footer">
+      <div class="w-layout-blockcontainer container w-container">
+        <div class="footer-wrapper">
+          <div class="footer-colums">
+            <div class="footer-colum-heading">Contact</div>
+            <div class="f-il-wrapper">
+              <div class="f-icon-list"><span class="icon"></span>Walking Street, Los Angeles, California, USA</div>
+              <div class="f-icon-list"><span class="icon"></span>info@eventchamp.com</div>
+              <div class="f-icon-list"><span class="icon"></span>+90 312 69 12</div>
+              <div class="f-icon-list"><span class="icon"></span>+55 215 70 20</div>
+            </div>
+            <div class="footer-social-icon-wrapper">
+              <a href="#" class="f-social-icon-link w-inline-block">
+                <p class="f-social-icon"></p>
+              </a>
+              <a href="#" class="f-social-icon-link w-inline-block">
+                <p class="f-social-icon"></p>
+              </a>
+              <a href="#" class="f-social-icon-link w-inline-block">
+                <p class="f-social-icon"></p>
+              </a>
+              <a href="#" class="f-social-icon-link w-inline-block">
+                <p class="f-social-icon"></p>
+              </a>
+              <a href="#" class="f-social-icon-link w-inline-block">
+                <p class="f-social-icon"></p>
+              </a>
+            </div>
+          </div>
+          <div class="footer-colums">
+            <div class="footer-colum-heading">LATEST Posts</div>
+            <a href="#" class="f-blog-posts-wrap w-inline-block"><img src="images/venue-11-540x540_1.webp" loading="lazy" sizes="65px" srcset="images/venue-11-540x540_1venue-11-540x540.webp 500w, images/venue-11-540x540_1.webp 540w" alt="blog post image" class="f-blog-img">
+              <div class="f-blog-content">
+                <div class="f-blog-posts-heading">Top 20 Event and Conference Countries</div>
+                <div class="f-b-icon-list-wrap">
+                  <div class="f-blog-icon-list"><span class="icon"></span> Lists</div>
+                  <div class="f-blog-icon-list"><span class="icon"></span> 4 Min Read</div>
+                </div>
+              </div>
+            </a>
+            <a href="#" class="f-blog-posts-wrap w-inline-block"><img src="images/event-4-540x540-topaz-faceai_1.webp" loading="lazy" sizes="65px" srcset="images/event-4-540x540-topaz-faceai_1event-4-540x540-topaz-faceai.webp 500w, images/event-4-540x540-topaz-faceai_1.webp 540w" alt="blog post image" class="f-blog-img">
+              <div class="f-blog-content">
+                <div class="f-blog-posts-heading">Budget for Business Events</div>
+                <div class="f-b-icon-list-wrap">
+                  <div class="f-blog-icon-list"><span class="icon"></span> Lists</div>
+                  <div class="f-blog-icon-list"><span class="icon"></span> 4 Min Read</div>
+                </div>
+              </div>
+            </a>
+            <a href="#" class="f-blog-posts-wrap w-inline-block"><img src="images/event-22-540x540-topaz-faceai_1.webp" loading="lazy" sizes="65px" srcset="images/event-22-540x540-topaz-faceai_1event-22-540x540-topaz-faceai.webp 500w, images/event-22-540x540-topaz-faceai_1.webp 540w" alt="blog post image" class="f-blog-img">
+              <div class="f-blog-content">
+                <div class="f-blog-posts-heading">Five Ideas for Fun Family Activities</div>
+                <div class="f-b-icon-list-wrap">
+                  <div class="f-blog-icon-list"><span class="icon"></span> Lists</div>
+                  <div class="f-blog-icon-list"><span class="icon"></span> 4 Min Read</div>
+                </div>
+              </div>
+            </a>
+          </div>
+          <div class="footer-colums">
+            <div class="footer-colum-heading">Our App</div>
+            <p class="f-oa-text">Discover Eventchamp&#x27;s innovative apps! Enhance attendee experience, manage events on-the-go, and stay connected through our suite of mobile solutions.</p>
+            <div class="f-apps-link-wrapper">
+              <a id="w-node-_2bf449b0-398e-6a6d-f273-7a1f8ea35b2c-8ea35ad2" href="#" class="f-app-cards w-inline-block">
+                <div class="app-store-img"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAFoAAABaCAYAAAA4qEECAAAACXBIWXMAAAsTAAALEwEAmpwYAAAELElEQVR4nO3da8ifYxwH8HvMHHJopZmVNcxxITWaeGVK5JCEZrIiEWXLC6EQ0lJT5tBKEm0USx6WsNbSxlZ4gYlnDjkU2ow5rB1sfHTVNS1jz///PP/9r+u+7vvz6nn1v6++9911X/d1+D1V1Wr1AkbhDNyH17AWC3vy460qBHwgbsHndrekzagHMAPf+n+LenGdxsJYLDa0h1K3tbZwDD7RmZmp21tLOBbf6dzk1G2uHRyGL7sIeTB1m2sJC3Xn3tRtruvoohvbMCF1u2sFh+CHrmLm0dTtrh3c32XIGzAudbtrBQfF4LoxI3W7awczuwy57TKGAy93EfJSjB7WhZoO6zoM+f0wzk7d3lrCER2G/FYb8gjgpCEC3oG5bXcxQjh5DyEvx+kjvUar+mduY6ftccbu4TbgvTfvPAH7tU/f7uHsj3NwB17ACnwa1/Dew/O4DVN6/Jl+Ce7Gi1iJNfgM7+CVMMbGNTiq1jctLowuwEadG4w3ZPwwrndCvGHL4iRSp/7Catwc1hurusCpcdV5JP6IT+K5YTV7D9c6Lj61H+uNdfFmjc69iwgvpz/11lo8iPNxGi7AA/GjZG8JXdopVW5wPD5Uls24qMoFpmK9Mm3HtTmEfBZ+V7YdOC9lyEd3MclTdz9hUqoJ+DAWboptYcydIuhHNMfaJCMQnL0XhnC5CpNVY/secgx6lWZ4GwenCvlCzfBRmC9JEnIM+k3l2xQWGVKGfGScgCnd9clCjkHfoHxrsE/qoMMcbukuzWFmLvRdpT/No3KYYy7d7UlDjkFfpXxTcgj6HmXbkLzbiEEvUrYVVQ7wqrI9W+UgriyX7LEqB3GCpWTzqxzgXWV7rspBnJct2fIqBxhQtp9zGd49o3yTcwh6nvLNySHoG5VvVQ5BT9cMZ6YOeqJmGMihEFTYrdME01OHPdI9z3XxFQ5NGXTY8N0UyzAmVdBNeSHu9HSSjxgc0IAtuv+2IMkxiy4PvZdiad/33+E6zfQ9Lutn0OPiiammej2ccuhX2KUvaw1lQb+CvlyzTetX0GPwo2Ya7EvIu4QdDlQ20Z39Djq8FLdolk04vK9Bx7Cf0izz+h5yDHoStmqGrUlLbsaaF03weLKQd+mrf1O2jUn65v8Ie7ay3VrlIJz5KPjs4WrsW+Uinggo7cW4BSdWuSmwC5ld5Sgu4A4UtJQ1qsq8Lt036j/KmFjlLta466YcWk7CyeArq7rALPU0t6ob3KVeFmc1lEu0F2R9rAsdig4+GXbox2Wlr3v0+0uS7ePoFVwda8h1KxznmBP+F9YQvz8+7nYNNU+HY37WlRuHUTf0jQ7nfMP069QRfDg9gV86uNYXuLgqEaaFo2b4IB5n2Bz3uoX9Ijf1qmR8rGI2K3YxofjUr/FLL/z9Eq4IhQR6ca1Wq9VqtVqtKgt/A3JCTKoCVX8wAAAAAElFTkSuQmCC" alt="Apple Logo" class="img"></div>
+                <div class="app-store-text-wrap">
+                  <p class="app-store-text">Download via<br><span class="app-store-name">Apple Store</span></p>
+                </div>
+              </a>
+              <a id="w-node-_2bf449b0-398e-6a6d-f273-7a1f8ea35b35-8ea35ad2" href="#" class="f-app-cards w-inline-block">
+                <div class="app-store-img"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAFoAAABaCAYAAAA4qEECAAAACXBIWXMAAAsTAAALEwEAmpwYAAADdklEQVR4nO3cOWgVQQCA4THiUXgUnoUHIoiilSgeVUCMJmBnq6WdWIi9vVUawdbSwiaVEsTUSmwVgyAm2HhE9OXtJJpfJmxI1OfL7s6xc321eZn5fcx7O7MbIbIsy7Isy7Isy1IDrAPOAJvbHkv0gBHgPXAb2ND2eKIGXAK6wBvgYtvjSSW2Mgbsa3tMwQLOV1hGiqXUMAvcBNa7G2EkgA4wXCO2MgmcdTfKCCxlAwlcqbGMKIvAQ2CXu9EGjBVNYitfgFvAgLtRB4g/NY2tvAROuxt5YPiXTuxfwANgu7sZBKJHLN3YykfgurrKdDcTz/F/UjO28hw47m42HusTyVTseWAU2CpSxtqkgdjKtFpORKoqhDYZWxkHjorUUJ00GFv9m7tJbcXWCG06tjKlLu9FCqhPGo69vDN4UMSsQWhbsTvlcrJRxIjmpIXYRHvQoBHaZmzlEbBHxAJ90mLs2XJnMPyDBgOhbcdWXgHnRMgwp6hwUjP810lNHWpncFSECrOkxXf2mq+dUmhbscOOrGBHYXAZ6VZ4rYFUQ5t6Z1d9jXfeHzRgl9SI3eRnJ4ATIsHQTYPp/ActeHnQgBuyRjhTH6YzXh004E5R8QPS9Hfxp8AR0TbcKtYKaemCR+0MXjNbrv7gCSE2eleVyk9g0E7FahPA99joR142brdm/0ngc2zMRVa+uanaeyIphZ52U7X3RNog6+xdaG6xrnbfbs3+kwjpw7Cr8XvVDTx77VSsNoHQvt51Gx4cHDZbrv7gQ7xg6Vb8nd+BO148wkeYl+BDFWL7da+IZ5GX6cSe0lmerCHsbdKhVT875/X9fBYjFwY2iKq8xmXgMXBI+MxSZGnw3DD880LF88jxxMYsmW83sB+6MPwduNeJyVURqgDeyQvlGeA2ETLPI78ATokYeBr5c3TPl3sWebH8iwk7RWw8ijwZ9d8A8SDy12huNu+nxciL5TKxW6SgpcivgQsiJY4j/4j6Ebd+HEYeAw6IVDmI/FZtZYrUWYw8Vy4Tm9zNxmOWIo95vxHvmuHIH4LeYbPJUOT5codti7uRB8ZA5GfAMXcjDpRG5BmvHl3wXXkyMlLhpLm7apm4l5eJ+qEHa0Se8PbxspCxslx8Am54/cBk4JE75Q7bjrbHE6VyuXgCnGx7LFED9rc9hizLsizLsizLskz09xtZri21oANzGwAAAABJRU5ErkJggg==" alt="Google Play" class="img"></div>
+                <div class="app-store-text-wrap">
+                  <p class="app-store-text">Download via<br><span class="app-store-name">Play Store</span></p>
+                </div>
+              </a>
+              <a id="w-node-_2bf449b0-398e-6a6d-f273-7a1f8ea35b3e-8ea35ad2" href="#" class="f-app-cards w-inline-block">
+                <div class="app-store-img"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAFoAAABaCAYAAAA4qEECAAAACXBIWXMAAAsTAAALEwEAmpwYAAABm0lEQVR4nO3dPS4FYRhH8UkE9bUCsQXRqcQGSCQ2wAqIwgJYAo2eLVyNXmEDaEQpEVH5OCK5heJmirnuf965c379JE9O3sxH80xVSZIkSZK6DRgAq8AOcAScA0Pgue3ZOgVYBFaATWAfOAWugFvgnRptz96lU3kPfNfFNPQfwELNqXxrGrKXoak/lV/Titmb0MDdNE/lJKpZeoJTsGy98THXx9wrX5sMTcGmHXK+6etQnV6HBraBQ+AMuAYegc/k0PQkdOtDUzBDhxg6xNAhhg4xdIihQwwdYugQQ4cYOsTQIYYOMXSIoUMMHWLoEEOHGDrE0CGGDjF0iKG7FlqSJCmjhFclCmboEEOHGDrE0CGGDjF0iKFDDB1i6BBDhxg6xNAhhg4xdIihQwwdYugQQ4cYOsTQIYYOMXQHQ28BB6PlVb/76R6Aj+TQ9CF0g3VsjTcuVob+v22NGDoDWALWgF3gGLgAboCnmmuKVc0SXAIbDz5wrXHLcFF3GVw9XwB/plAAYA5YBjaAPeAEuBx9M7y0PZ8kSZIkVZP4AZUduU43u0HtAAAAAElFTkSuQmCC" alt="Windows 10" class="img"></div>
+                <div class="app-store-text-wrap">
+                  <p class="app-store-text">Download via<br><span class="app-store-name">Windows</span></p>
+                </div>
+              </a>
+              <a id="w-node-_2bf449b0-398e-6a6d-f273-7a1f8ea35b47-8ea35ad2" href="#" class="f-app-cards w-inline-block">
+                <div class="app-store-img"><img src="data:image/png;base64,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" alt="Amazon" class="img"></div>
+                <div class="app-store-text-wrap">
+                  <p class="app-store-text">Download via<br><span class="app-store-name">Amazon Store</span></p>
+                </div>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="footer-divider"></div>
+      <div class="w-layout-blockcontainer container w-container">
+        <div class="below-footer-wrap">
+          <div class="site-logo"><img src="images/logo-alternative.webp" loading="lazy" alt="site logo"></div>
+          <div class="copyright">
+            <p class="copyright-text">Copyright © 2023 Eventchamp - All rights reserved.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+  </div>
+  <script src="https://d3e54v103j8qbb.cloudfront.net/js/jquery-3.5.1.min.dc5e7f18c8.js?site=66eaa68501bd176d8e1d62d0" type="text/javascript" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
+  <script src="js/webflow.js" type="text/javascript"></script>
+</body>
+</html>
